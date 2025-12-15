@@ -29,9 +29,9 @@ const stars = [];
 const explosions = [];
 const shootingStars = [];
 
-const fullText1 = ["Happy 17 tuổi LB Như💕"]; 
-const fullText2 = ["Tớ chả có món quà đắt tiền"];
-const fullText3 = ["Chỉ có tấm lòng này thôiiii"];
+const fullText1 = [" Happy 17 tuổi LB Như💕"]; 
+const fullText2 = [" Tớ chả có món quà đắt tiền"];
+const fullText3 = [" Chỉ có tấm lòng này thôiiii"];
 
 const allTexts = [fullText1,fullText2,fullText3]; 
 
@@ -340,5 +340,6 @@ canvas.addEventListener("touchstart", (e) => {
 setInterval(shootDot, 30);
 setInterval(createShootingStar, 1500);
 animate();
+
 
 
